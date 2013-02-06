@@ -10,7 +10,7 @@
 
 	<groupId>com.francetelecom.yoyo</groupId>
 	<artifactId>yoyo</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>integration-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}(${project.packaging})</name>
 	<url>http://${project.artifactId}.orangeforge.rd.francetelecom.fr/website/${project.artifactId}-${project.version}</url>
@@ -81,20 +81,20 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-technicalservice</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-model</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<!-- used by GWT to generate javascript client code -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-model</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 				<type>java-source</type>
 			</dependency>
 
@@ -102,46 +102,46 @@
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-application</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<!-- used by GWT to generate javascript client code -->
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-application</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 				<type>java-source</type>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-business</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-consumer-jpa</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-provider-gwt</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-war</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 				<type>war</type>
 			</dependency>
 
 			<dependency>
 				<groupId>${project.groupId}</groupId>
 				<artifactId>yoyo-ear</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>integration-SNAPSHOT</version>
 				<type>ear</type>
 			</dependency>
 
@@ -555,7 +555,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore/>
+										<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
